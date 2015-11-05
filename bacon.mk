@@ -186,7 +186,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     qcmediaplayer
 
-
 # NFC
 ifeq ($(TARGET_BUILD_VARIANT),user)
     NFCEE_ACCESS_PATH := $(LOCAL_PATH)/configs/nfcee_access.xml
@@ -300,7 +299,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true \
     persist.timed.enable=true \
     ro.opengles.version=196608 \
-    ro.qualcomm.bt.hci_transport=smd \
     ro.telephony.default_network=9 \
     ro.use_data_netmgrd=true \
     persist.data.netmgrd.qos.enable=true \
